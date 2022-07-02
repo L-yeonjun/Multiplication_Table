@@ -10,14 +10,14 @@ public class multiplication_table {
 		int total1=0, total2=0, total3=0;
 		int i, j;
 		
-		System.out.printf("\t\t★★★ multiplication table ★★★\n\n");
+		System.out.printf("\t\t===== multiplication table =====\n\n");
 		
 		for(i=2; i<10; i=i+3) {
 			if(i == 8) {
-				System.out.printf(" %d단 \t\t\t %d단 \n", i, i+1);
+				System.out.printf(" %dX \t\t\t %dX \n", i, i+1);
 			}
 			else {
-			System.out.printf(" %d단 \t\t\t %d단 \t\t\t %d단", i, i+1, i+2);
+			System.out.printf(" %dX \t\t\t %dX \t\t\t %dX", i, i+1, i+2);
 			System.out.println();
 			}
 			
