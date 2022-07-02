@@ -10,14 +10,14 @@ public class multiplication_table {
 		int total1=0, total2=0, total3=0;
 		int i, j;
 		
-		System.out.printf("\t\t\t★★★구구단★★★\n\n");
+		System.out.printf("\t\t★★★ multiplication table ★★★\n\n");
 		
 		for(i=2; i<10; i=i+3) {
 			if(i == 8) {
-				System.out.printf("%d단\t\t\t%d단\n", i, i+1);
+				System.out.printf(" %d단 \t\t\t %d단 \n", i, i+1);
 			}
 			else {
-			System.out.printf("%d단\t\t\t%d단\t\t\t%d단", i, i+1, i+2);
+			System.out.printf(" %d단 \t\t\t %d단 \t\t\t %d단", i, i+1, i+2);
 			System.out.println();
 			}
 			
@@ -41,13 +41,13 @@ public class multiplication_table {
 				total3 = total3 + isum3;
 			}
 				if(i == 8) {
-					System.out.printf("%d단 총합계 = %d\t\t", i, total1);
-					System.out.printf("%d단 총합계 = %d\n", i+1, total2);
+					System.out.printf("total = %d\t\t", total1);
+					System.out.printf("total = %d\n", total2);
 				}
 				else {
-					System.out.printf("%d단 총합계 = %d\t\t", i, total1);
-					System.out.printf("%d단 총합계 = %d\t\t", i+1, total2);
-					System.out.printf("%d단 총합계 = %d\n", i+2, total3);
+					System.out.printf("total = %d\t\t", total1);
+					System.out.printf("total = %d\t\t", total2);
+					System.out.printf("total = %d\n", total3);
 			 		System.out.println();
 				}
 		}
